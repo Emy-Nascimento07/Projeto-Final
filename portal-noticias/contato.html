@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/style.css" />
     <title>The Daily | Portal de Notícias</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-    <h1>The Daily</h1>
+      <h1>The Daily</h1>
       <nav>
         <ul>
           <li><a href="index.html">Home</a></li>
@@ -20,34 +20,78 @@
     </header>
 
     <main>
-        <h2 class="contato">Contate-nos</h2>
-        <div class="blocos-contato">
-
+      <h2 class="contato">Contate-nos</h2>
+      <div class="container">
+        <div class="card">
+          <h3>Nosso escritório<br />principal</h3>
+          <p><span class="pin-icon">📍</span> Rua x, número xxx</p>
+          <br />
+          <a href="#" class="link-red">Acessar pelo Mapas</a>
         </div>
-        <div class="form">
-            <div class="nos-ajude">
-                <h2>Nos ajude à crescer!</h2>
-                <h4>Entre em contato através do nosso formulário, ficaremos muito felizes em te responder.</h4>
-                <h1 class="frase">"Nenhum de nós é tão bom quanto todos nós juntos."</h1>
-                <p class="frase">-Ray Kroc</p>
-            </div>
-            <div class="formulario">
-                <form action="">
-                    <label for="nome">Nome:</label>
-                    <input type="text" id="nome" name="nome" required>
 
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" required>
-
-                    <label for="interesse">Interesse:</label>
-                    <textarea id="interesse" name="interesse" rows="5" required></textarea>
-
-                    <button type="submit">Enviar</button>
-                    <button type="reset">Limpar</button>
-                </form>
-            </div>
+        <div class="card">
+          <h3>Redes sociais</h3>
+          <p><a href="#" class="link-black">@thedaily</a></p>
+          <p><a href="#" class="link-black">@thedaily</a></p>
+          <span class="text-red-italic">
+            Nos siga para conferir tudo que acontece no mundo!
+          </span>
         </div>
+
+        <div class="card">
+          <h3>Telefone</h3>
+
+          <p>(01)2345-6789</p>
+          <span class="phone-label">Central de atendimento</span>
+
+          <p>(01)12345-6789</p>
+          <span class="phone-label">WhatsApp</span>
+        </div>
+
+        <div class="card">
+          <h3>Email</h3>
+          <p><a href="#" class="link-black">thedaily@email.com</a></p>
+          <span class="text-red-italic">
+            Nos siga para conferir tudo que acontece no mundo!
+          </span>
+        </div>
+      </div>
+      <div class="form">
+        <div class="nos-ajude">
+          <h2>Nos ajude à crescer!</h2>
+          <h4>
+            Entre em contato através do nosso formulário, ficaremos muito
+            felizes em te responder.
+          </h4>
+          <h1 class="frase">
+            "Nenhum de nós é tão bom quanto todos nós juntos."
+          </h1>
+          <p class="frase">-Ray Kroc</p>
+        </div>
+        <div class="formulario">
+          <form action="">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required />
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+
+            <label for="interesse">Interesse:</label>
+            <textarea
+              id="interesse"
+              name="interesse"
+              rows="5"
+              required
+            ></textarea>
+
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpar</button>
+          </form>
+        </div>
+      </div>
     </main>
-    
-</body>
+    <footer>
+      <p>&copy; 2025 The Daily. Todos os direitos reservados.</p>
+    </footer>
+  </body>
 </html>
