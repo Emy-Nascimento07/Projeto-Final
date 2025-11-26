@@ -4,6 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins&display=swap"
+      rel="stylesheet"
+    />
     <title>The Daily | Portal de notícias</title>
   </head>
   <body>
@@ -14,69 +22,182 @@
           <li><a href="index.html">Home</a></li>
           <li><a href="noticia.html">Notícias</a></li>
           <li><a href="contato.html">Contato</a></li>
-          <li><a href="login.html">Login / Cadastre-se</a></li>
+          <li><a href="#">Login / Cadastre-se</a></li>
         </ul>
       </nav>
     </header>
 
     <main>
-      <div class="noticia-inicial">
-        <span class="tag tag-tecnologia">Tecnologia</span>
-        <h2>Notícia em destaque</h2>
-        <img
-          src="/img/noticia-principal.jpg"
-          alt="Imagem da notícia em destaque"
-        />
+      <section class="hero-news">
+        <div class="container">
+          <h2>As principais notícias do dia</h2>
+          <span class="tag tag-meioambiente">Meio-ambiente</span>
+          <span class="data">25 de Novembro, 2025</span>
+          <img
+            src="/img/COP30.jpg"
+            alt="Banner da conferência COP30 com a imagem de uma floresta ao fundo"
+          />
+          <h1 class="hero">
+            COP30 em Belém: participação histórica, resultado insuficiente
+          </h1>
+          <p class="hero">
+            Especialistas discutem os desafios e avanços na conferência.
+          </p>
+          <a class="lermais" href="noticia.html">Leia mais</a>
+        </div>
+        <h2 class="destaques">Destaques</h2>
+      </section>
+    </main>
+
+    <div class="outras-noticias">
+      <div class="card-noticia">
+        <span class="tag tag-agro">Agricultura</span>
+        <img src="/img/noticia-1.webp" alt="" />
         <h3>
-          Cloudflare se pronuncia oficialmente sobre falha global que derrubou
-          centenas de sites
+          Brasil lidera integração inédita entre clima, natureza e uso da terra
+          na COP30
         </h3>
-        <p>18/11/2025</p>
-        <p>7 minutos de leitura</p>
         <a
-          href="https://cryptoid.com.br/criptografia-identificacao-digital-id-biometria/cloudflare-se-pronuncia-oficialmente-sobre-falha-global-que-derrubou-centenas-de-sites/"
+          href="https://opresenterural.com.br/brasil-lidera-integracao-inedita-entre-clima-natureza-e-uso-da-terra-na-cop30/"
+          >Leia mais</a
+        >
+      </div>
+      <div class="card-noticia">
+        <span class="tag tag-financas">Finanças</span>
+        <img src="/img/noticia-2.webp" alt="" />
+        <h3>
+          Dólar recua e Ibovespa sobe com mercado atento aos rumos dos juros no
+          Brasil e nos EUA
+        </h3>
+        <a
+          href="https://oglobo.globo.com/economia/financas/ao-vivo/ibovespa-hoje-acompanhe-bolsa-e-dolar.ghtml"
+          >Leia mais</a
+        >
+      </div>
+      <div class="card-noticia">
+        <span class="tag tag-pop">Pop</span>
+        <img src="/img/noticia-3.avif" alt="" />
+        <h3>
+          Paul McCartney lança faixa silenciosa em protesto contra projeto de IA
+        </h3>
+        <a
+          href="https://g1.globo.com/pop-arte/musica/noticia/2025/11/18/paul-mccartney-lanca-faixa-silenciosa-em-protesto-contra-projeto-de-ia.ghtml"
+          >Leia mais</a
+        >
+      </div>
+      <div class="card-noticia">
+        <span class="tag tag-meioambiente">Meio-ambiente</span>
+        <img src="/img/noticia-4.jpg" alt="Canal de Veneza tingido de verde" />
+        <h3>
+          Veneza expulsa Greta da cidade após ativista tingir canal de verde
+        </h3>
+        <a
+          href="https://www.poder360.com.br/poder-internacional/veneza-expulsa-greta-da-cidade-apos-ativista-tingir-canal-de-verde/"
           >Leia mais</a
         >
       </div>
 
-      <div class="outras-noticias">
-        <div class="noticia1">
-          <span class="tag tag-agro">Agricultura</span>
-          <img src="/img/noticia-1.webp" alt="" />
-          <h3>
-            Brasil lidera integração inédita entre clima, natureza e uso da
-            terra na COP30
-          </h3>
-          <a
-            href="https://opresenterural.com.br/brasil-lidera-integracao-inedita-entre-clima-natureza-e-uso-da-terra-na-cop30/"
-            >Leia mais</a
-          >
-        </div>
-        <div class="noticia2">
-          <span class="tag tag-financas">Finanças</span>
-          <img src="/img/noticia-2.webp" alt="" />
-          <h3>
-            Finanças sustentáveis: o futuro que o Sicoob já está construindo
-          </h3>
-          <a
-            href="https://g1.globo.com/especial-publicitario/sicoob/noticia/2025/11/17/financas-sustentaveis-o-futuro-que-o-sicoob-ja-esta-construindo.ghtml"
-            >Leia mais</a
-          >
-        </div>
-        <div class="noticia3">
-          <span class="tag tag-pop">Pop</span>
-          <img src="/img/noticia-3.avif" alt="" />
-          <h3>
-            Paul McCartney lança faixa silenciosa em protesto contra projeto de
-            IA
-          </h3>
-          <a
-            href="https://g1.globo.com/pop-arte/musica/noticia/2025/11/18/paul-mccartney-lanca-faixa-silenciosa-em-protesto-contra-projeto-de-ia.ghtml"
-            >Leia mais</a
-          >
-        </div>
+      <div class="card-noticia">
+        <span class="tag tag-esporte">Esporte</span>
+        <img src="/img/noticia-5.webp" alt="Flamengo e Palmeiras em campo" />
+        <h3>
+          Brasileirão: as chances de título após resultados de Flamengo e
+          Palmeiras
+        </h3>
+        <a
+          href="https://www.cnnbrasil.com.br/esportes/brasileirao/brasileirao-as-chances-de-titulo-apos-resultados-de-flamengo-e-palmeiras/"
+          >Leia mais</a
+        >
       </div>
-    </main>
+
+      <div class="card-noticia">
+        <span class="tag tag-politica">Política</span>
+        <img
+          src="/img/noticia-6.png"
+          alt="Proposta de aposentadoria para agentes de saúde"
+        />
+        <h3>
+          Governo estuda veto a aposentadoria especial para agentes de saúde e
+          avalia judicialização
+        </h3>
+        <a
+          href="https://cbn.globo.com/politica/noticia/2025/11/26/governo-estuda-veto-a-aposentadoria-especial-para-agentes-de-saude-e-avalia-judicializacao.ghtml"
+          >Leia mais</a
+        >
+      </div>
+    </div>
+
+    <div class="video">
+      <h2>Confira mais sobre o assunto <b>mais viral</b> do momento</h2>
+      <br />
+      <br />
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/ejzjpscTWfQ?si=9eVGRF9P0m5IS0jb"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+    </div>
+
+    <aside class="sidebar">
+      <div class="widget">
+        <h2>Categorias</h2>
+        <ul class="lista-categorias">
+          <li><a href="#">Política</a></li>
+          <li><a href="#">Economia</a></li>
+          <li><a href="#">Esportes</a></li>
+          <li><a href="#">Cultura</a></li>
+          <li><a href="#">Tecnologia</a></li>
+          <li><a href="#">Meio Ambiente</a></li>
+        </ul>
+      </div>
+
+      <div class="widget">
+        <h2>Notícias mais lidas</h2>
+        <ol class="lista-noticias">
+          <li>
+            <a href="#">
+              Brasileirão: as chances de título após resultados de Flamengo e
+              Palmeiras
+            </a>
+          </li>
+          <li>
+            <a href="#"
+              >Brasil lidera integração inédita entre clima, natureza e uso da
+              terra na COP30</a
+            >
+          </li>
+          <li>
+            <a href="#">
+              Veneza expulsa Greta da cidade após ativista tingir canal de verde
+            </a>
+          </li>
+          <li>
+            <a href="#"
+              >Governo estuda veto a aposentadoria especial para agentes de
+              saúde e avalia judicialização</a
+            >
+          </li>
+          <li>
+            <a href="#">
+              Paul McCartney lança faixa silenciosa em protesto contra projeto
+              de IA
+            </a>
+          </li>
+          <li>
+            <a href="#"
+              >Dólar recua e Ibovespa sobe com mercado atento aos rumos dos
+              juros no Brasil e nos EUA</a
+            >
+          </li>
+        </ol>
+      </div>
+    </aside>
+
     <footer>
       <p>&copy; 2025 The Daily. Todos os direitos reservados.</p>
     </footer>
