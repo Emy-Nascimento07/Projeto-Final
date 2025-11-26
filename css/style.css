@@ -138,43 +138,61 @@ main {
 
 .tag-esporte {
     background-color: #007bff;
-    color: #fff;
-    padding: 0.2vh 1vh;
+    color: white;
+    padding: 5px 12px;
+    border-radius: 4px;
+    font-weight: bold;
+    text-shadow: none;
     text-align: center;
 }
 
 .tag-politica {
     background-color: #c42222;
-    color: #fff;
-    padding: 0.2vh 1vh;
+    color: white;
+    padding: 5px 12px;
+    border-radius: 4px;
+    font-weight: bold;
+    text-shadow: none;
     text-align: center;
 }
 
 .tag-financas {
-    background-color: #ebfa20;
-    color: #fff;
-    padding: 0.2vh 1vh;
-      text-align: center;
+    background-color: #e0e693;
+    color: white;
+    padding: 5px 12px;
+    border-radius: 4px;
+    font-weight: bold;
+    text-shadow: none;
+    text-align: center;
 }
 
 .tag-meioambiente {
     background-color: #28a745;
-    color: #fff;
-    padding: 0.2vh 1vh;
+    color: white;
+    padding: 5px 12px;
+    border-radius: 4px;
+    font-weight: bold;
+    text-shadow: none;
     text-align: center;
 }
 
 .tag-pop {
     background-color: #ff69b4;
-    color: #fff;
-    padding: 0.2rem 1rem;
+    color: white;
+    padding: 5px 12px;
+    border-radius: 4px;
+    font-weight: bold;
+    text-shadow: none;
     text-align: center;
 }
 
 .tag-agro {
     background-color: #845c10;
-    color: #fff;
-    padding: 0.2vh 1vh;
+    color: white;
+    padding: 5px 12px;
+    border-radius: 4px;
+    font-weight: bold;
+    text-shadow: none;
     text-align: center;
 }
 
@@ -189,6 +207,7 @@ main {
     border: none;
     border-radius: 10px;
     margin: 0 auto;
+    padding-top: -100px;
 }
 
 .video h2 {
@@ -196,7 +215,85 @@ main {
     margin-bottom: 2px;
     color: #000;
     text-align: center;
+    padding-top: 35px;
 }
+
+.hero-news {
+    width: 100%;
+    height: 85vh;
+    background-image: linear-gradient(to top, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.4) 60%, rgba(0,0,0,0.6) 100%), url('/img/COP30.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 60px;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+.hero-content {
+    width: 100%;
+    max-width: 1500px;
+    padding: 0 20px;
+}
+
+.hero-content h1 {
+    font-family: 'Merriweather', serif;
+    font-size: 3.5rem;
+    line-height: 1.1;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.8);
+}
+
+.hero-content p {
+    font-size: 1.3rem;
+    margin-bottom: 30px;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.8);
+    opacity: 0.9;
+}
+
+.hero-meta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.top-label {
+    opacity: 0.8;
+}
+
+.tag-meioambiente {
+    background-color: #2ecc71;
+    color: white;
+    padding: 5px 12px;
+    border-radius: 4px;
+    font-weight: bold;
+    text-shadow: none;
+}
+
+.lermais {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: #d93025;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: background 0.3s;
+}
+
+.lermais:hover {
+    background-color: #b3241a;
+}
+
 
 
 /* Página de Contato */
@@ -537,4 +634,16 @@ p.destaque-2 {
     margin-right: 10px; 
     margin-bottom: 5px; 
     margin-top: 5px;
+}
+
+h1.noticia-oficial {
+    font-size: 2.5rem;
+    margin-bottom: 2px;
+    color: #000;
+}
+
+a.noticia-oficial-link {
+    color: #ff0000;
+    text-decoration: underline;
+    font-weight: bold;
 }
