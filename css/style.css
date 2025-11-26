@@ -642,8 +642,45 @@ h1.noticia-oficial {
     color: #000;
 }
 
-a.noticia-oficial-link {
-    color: #ff0000;
-    text-decoration: underline;
+.glossario-box {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f8f9fa;
+    padding: 30px;
+    margin: 40px 0;
+    border-left: 5px solid #d93025;
+    border-radius: 0 8px 8px 0;
+}
+
+.glossario-box h3 {
+    font-size: 1.4rem;
+    color: #333;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.glossario-box dl {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+}
+
+.glossario-box dt {
     font-weight: bold;
+    color: #d93025; 
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+}
+
+.glossario-box dd {
+    color: #555;
+    line-height: 1.6;
+    margin-left: 0; 
+    padding-bottom: 15px;
+    border-bottom: 1px solid #e9ecef; 
+}
+
+.glossario-box dd:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
 }
