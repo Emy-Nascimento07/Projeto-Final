@@ -18,37 +18,109 @@
     <header>
       <h1>The Daily</h1>
       <nav>
-        <ul>
+        <ul class="menu-principal">
           <li><a href="index.html">Home</a></li>
-          <li><a href="noticia.html">Notícias</a></li>
+
+          <li>
+            <a href="noticia.html">Notícias ▾</a>
+
+            <ul class="submenu">
+              <li><a href="#">Agricultura</a></li>
+              <li><a href="#">Finanças</a></li>
+              <li><a href="#">Pop</a></li>
+              <li><a href="noticia.html">Meio-ambiente</a></li>
+              <li><a href="#">Esportes</a></li>
+              <li><a href="#">Política</a></li>
+            </ul>
+          </li>
           <li><a href="contato.html">Contato</a></li>
-          <li><a href="#">Login / Cadastre-se</a></li>
         </ul>
       </nav>
     </header>
 
     <main>
-      <section class="hero-news">
-    <div class="hero-content">
-        
-        <div class="hero-meta">
-            <span class="top-label">As principais notícias do dia</span>
-            <span class="tag tag-meioambiente">Meio-ambiente</span>
-            <span class="data">25 de Novembro, 2025</span>
-        </div>
+      <div class="main-content">
+        <aside class="sidebar-left">
+          <div class="widget">
+            <h2>Categorias</h2>
+            <ul class="lista-categorias">
+              <li><a href="#">Política</a></li>
+              <li><a href="#">Economia</a></li>
+              <li><a href="#">Esportes</a></li>
+              <li><a href="#">Cultura</a></li>
+              <li><a href="#">Tecnologia</a></li>
+              <li><a href="#">Meio Ambiente</a></li>
+            </ul>
+          </div>
+        </aside>
 
-        <h1>COP30 em Belém: participação histórica, resultado insuficiente</h1>
-        <p>Especialistas discutem os desafios e avanços na conferência.</p>
-        
-        <a class="lermais" href="noticia.html">Leia mais</a>
-    </div>
-</section>
+        <section class="hero-news">
+          <div class="hero-content">
+            <div class="hero-meta">
+              <span class="top-label">As principais notícias do dia</span>
+              <span class="tag tag-meioambiente">Meio-ambiente</span>
+              <span class="data">25 de Novembro, 2025</span>
+            </div>
+
+            <h1>
+              COP30 em Belém: participação histórica, resultado insuficiente
+            </h1>
+            <p>Especialistas discutem os desafios e avanços na conferência.</p>
+
+            <a class="lermais" href="noticia.html">Leia mais</a>
+          </div>
+        </section>
+
+        <aside class="sidebar-right">
+          <div class="widget">
+            <h2>Notícias mais lidas</h2>
+            <ol class="lista-noticias">
+              <li>
+                <a href="#">
+                  Brasileirão: as chances de título após resultados de Flamengo
+                  e Palmeiras
+                </a>
+              </li>
+              <li>
+                <a href="#"
+                  >Brasil lidera integração inédita entre clima, natureza e uso
+                  da terra na COP30</a
+                >
+              </li>
+              <li>
+                <a href="#">
+                  Veneza expulsa Greta da cidade após ativista tingir canal de
+                  verde
+                </a>
+              </li>
+              <li>
+                <a href="#"
+                  >Governo estuda veto a aposentadoria especial para agentes de
+                  saúde e avalia judicialização</a
+                >
+              </li>
+              <li>
+                <a href="#">
+                  Paul McCartney lança faixa silenciosa em protesto contra
+                  projeto de IA
+                </a>
+              </li>
+              <li>
+                <a href="#"
+                  >Dólar recua e Ibovespa sobe com mercado atento aos rumos dos
+                  juros no Brasil e nos EUA</a
+                >
+              </li>
+            </ol>
+          </div>
+        </aside>
+      </div>
     </main>
 
     <div class="outras-noticias">
       <div class="card-noticia">
         <span class="tag tag-agro">Agricultura</span>
-        <img src="/img/noticia-1.webp" alt="" />
+        <img src="/img/noticia-1.jpg" alt="" />
         <h3>
           Brasil lidera integração inédita entre clima, natureza e uso da terra
           na COP30
@@ -60,7 +132,7 @@
       </div>
       <div class="card-noticia">
         <span class="tag tag-financas">Finanças</span>
-        <img src="/img/noticia-2.webp" alt="" />
+        <img src="/img/noticia-2.jpg" alt="" />
         <h3>
           Dólar recua e Ibovespa sobe com mercado atento aos rumos dos juros no
           Brasil e nos EUA
@@ -72,7 +144,7 @@
       </div>
       <div class="card-noticia">
         <span class="tag tag-pop">Pop</span>
-        <img src="/img/noticia-3.avif" alt="" />
+        <img src="/img/noticia-3.jpg" alt="" />
         <h3>
           Paul McCartney lança faixa silenciosa em protesto contra projeto de IA
         </h3>
@@ -95,7 +167,7 @@
 
       <div class="card-noticia">
         <span class="tag tag-esporte">Esporte</span>
-        <img src="/img/noticia-5.webp" alt="Flamengo e Palmeiras em campo" />
+        <img src="/img/noticia-5.jpg" alt="Flamengo e Palmeiras em campo" />
         <h3>
           Brasileirão: as chances de título após resultados de Flamengo e
           Palmeiras
@@ -109,7 +181,7 @@
       <div class="card-noticia">
         <span class="tag tag-politica">Política</span>
         <img
-          src="/img/noticia-6.png"
+          src="/img/noticia-6.jpg"
           alt="Proposta de aposentadoria para agentes de saúde"
         />
         <h3>
@@ -138,61 +210,6 @@
         allowfullscreen
       ></iframe>
     </div>
-
-    <aside class="sidebar">
-      <div class="widget">
-        <h2>Categorias</h2>
-        <ul class="lista-categorias">
-          <li><a href="#">Política</a></li>
-          <li><a href="#">Economia</a></li>
-          <li><a href="#">Esportes</a></li>
-          <li><a href="#">Cultura</a></li>
-          <li><a href="#">Tecnologia</a></li>
-          <li><a href="#">Meio Ambiente</a></li>
-        </ul>
-      </div>
-
-      <div class="widget">
-        <h2>Notícias mais lidas</h2>
-        <ol class="lista-noticias">
-          <li>
-            <a href="#">
-              Brasileirão: as chances de título após resultados de Flamengo e
-              Palmeiras
-            </a>
-          </li>
-          <li>
-            <a href="#"
-              >Brasil lidera integração inédita entre clima, natureza e uso da
-              terra na COP30</a
-            >
-          </li>
-          <li>
-            <a href="#">
-              Veneza expulsa Greta da cidade após ativista tingir canal de verde
-            </a>
-          </li>
-          <li>
-            <a href="#"
-              >Governo estuda veto a aposentadoria especial para agentes de
-              saúde e avalia judicialização</a
-            >
-          </li>
-          <li>
-            <a href="#">
-              Paul McCartney lança faixa silenciosa em protesto contra projeto
-              de IA
-            </a>
-          </li>
-          <li>
-            <a href="#"
-              >Dólar recua e Ibovespa sobe com mercado atento aos rumos dos
-              juros no Brasil e nos EUA</a
-            >
-          </li>
-        </ol>
-      </div>
-    </aside>
 
     <footer>
       <p>&copy; 2025 The Daily. Todos os direitos reservados.</p>
