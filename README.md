@@ -10,7 +10,6 @@
 
 ```text
 /
-├── portal-noticias/
     └── index.html          # Página inicial
     └── noticia.html        # Página de leitura da notícia principal
     └── contato.html        # Formulário de contato
